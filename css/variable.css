@@ -1,0 +1,15 @@
+:root {
+    --header-height: 4.5rem;
+    --primary-color: #0f172a;
+    --primary-hover: #1e293b;
+    --accent-color: #2563eb;
+    --accent-hover: #1d4ed8;
+    --bg-color: #ffffff;
+    --bg-alt: #f8fafc;
+    --bg-nav: rgba(255, 255, 255, 0.9);
+    --text-color: #0f172a;
+    --text-light: #64748b;
+    --border-color: rgba(226, 232, 240, 0.8);
+    --shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}

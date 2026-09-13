@@ -1,0 +1,268 @@
+/* ================= RESPONSIVE MEDIA QUERIES ================= */
+
+@media screen and (max-width: 1024px) {
+
+    .corp-grid,
+    .showcase__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero__buttons {
+        flex-direction: column;
+    }
+    .hero__stats {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: #ffffffb1;
+        padding: 2rem;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;  
+    }
+    .hero__card-mockup{
+        background-color: #f2f2f982;
+    }
+    .mockup__body p{
+        text-align: left;
+        color: var(--accent-colo);
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: normal;
+    }
+    .section__title {
+        text-align: left;
+    }
+    #work-description .section__title, #about .section__title, .about__subtext, .about__checklist{
+        text-align: left;
+    }
+
+    .section__description {
+        text-align: left;
+    }
+
+    .hero__section {
+        background: linear-gradient(180deg, rgb(250, 254, 255) 0%, rgb(251, 251, 251) 0%, rgba(57, 124, 9, 0.464) 100%);
+    }
+
+    .hero__title {
+        text-align: left;
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+
+    .hero__description {
+        text-align: left;
+    }
+
+    .w-btn-outline {
+        border: 1px solid #212122;
+    }
+    .corp-showcase__section{
+        padding: 2rem 2rem;
+    }
+
+    .corp-filters,
+    .showcase__filters{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .contact__info, h3{
+        text-align: left;
+    }
+    form label{
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 968px) {
+    .container {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .hero__container,
+    .about__container,
+    .contact__container,
+    .work-desc__container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        text-align: center;
+    }
+
+    .hero__description,
+    .about__subtext,
+    .work-desc__content .section__description {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero__buttons,
+    .hero__stats {
+        justify-content: center;
+    }
+
+    .about__content .section__title,
+    .work-desc__content .section__title,
+    .work-desc__content .section__subtitle {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about__checklist {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .step__item {
+        text-align: left;
+    }
+
+    .work-desc__floating-card {
+        right: 10px;
+        bottom: -15px;
+    }
+
+    .footer__container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav__menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        background-color: var(--bg-color);
+        width: 80%;
+        max-width: 400px;
+        height: 100vh;
+        padding: 4rem 2rem;
+        box-shadow: -10px 0 30px rgba(15, 23, 42, 0.1);
+        transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        z-index: 100;
+    }
+
+    .show-menu {
+        right: 0;
+    }
+
+    .nav__list {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+
+    .nav__link {
+        font-size: 1.15rem;
+    }
+
+    .nav__toggle,
+    .nav__close {
+        display: block;
+    }
+
+    .nav__close {
+        position: absolute;
+        top: 1.5rem;
+        right: 1.5rem;
+    }
+
+    .hero__title {
+        font-size: 2.5rem;
+    }
+
+    .corp-grid,
+    .showcase__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .showcase-modal__grid,
+    .corp-modal__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .showcase-modal__img-box,
+    .corp-modal__img-box {
+        height: 220px;
+        min-height: auto;
+    }
+
+    .showcase-modal__text-box,
+    .corp-modal__text-box {
+        padding: 1.75rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+
+    .hero__stats {
+        flex-direction: column;
+        gap: 1.25rem;
+    }
+
+    .stat__divider {
+        display: none;
+    }
+
+    .floating__badge {
+        display: none;
+    }
+
+    .form__group {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .contact__info,
+    .contact__form {
+        padding: 2rem 1.5rem;
+    }
+
+    .work-desc__img-main {
+        height: 320px;
+    }
+
+    .work-desc__floating-card {
+        position: relative;
+        right: auto;
+        bottom: auto;
+        margin-top: 1rem;
+        justify-content: center;
+        text-align: left;
+    }
+
+    .footer__container {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+
+    .footer__bottom-container {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .footer__bottom-links {
+        justify-content: center;
+    }
+
+    .brands__grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .brand__item {
+        height: 80px;
+        padding: 1rem;
+    }
+}

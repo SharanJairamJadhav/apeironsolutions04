@@ -1,0 +1,54 @@
+.scroll-animate {
+    opacity: 0;
+    will-change: opacity, transform;
+    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.scroll-animate[data-animation="fade-up"] {
+    transform: translateY(40px);
+}
+
+.scroll-animate[data-animation="fade-down"] {
+    transform: translateY(-40px);
+}
+
+.scroll-animate[data-animation="fade-right"] {
+    transform: translateX(-50px);
+}
+
+.scroll-animate[data-animation="fade-left"] {
+    transform: translateX(50px);
+}
+
+.scroll-animate[data-animation="scale-up"] {
+    transform: scale(0.92);
+}
+
+.scroll-animate.animated {
+    opacity: 1;
+    transform: translate(0, 0) scale(1);
+}
+
+@keyframes fadeDownHeader {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-down {
+    animation: fadeDownHeader 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-card-hover {
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.animate-card-hover:hover {
+    transform: translateY(-8px) scale(1.01);
+}

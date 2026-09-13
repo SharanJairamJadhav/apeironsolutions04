@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apeiron Solution - Professional Web & Field Solutions</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./assets/Apeiron Logo.svg">
+
+    <!-- Google Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ephesis&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Kaushan+Script&family=MonteCarlo&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Tangerine:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Stylesheets & Responsive Rules -->
+    <link rel="stylesheet" href="./css/variable.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Header & Navbar Module -->
+    <header class="header" id="navbar">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo animate-fade-down">
+                <img src="./images/brands/apeiron-logo.png" alt="Apeiron Solution Logo" class="brand-logo-img">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#corporate-boards" class="nav__link">Corporate Boards</a></li>
+                    <li class="nav__item"><a href="#project-showcase" class="nav__link">Showcase</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+
+            <div class="nav__actions">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section Module -->
+        <section id="home" class="hero__section">
+            <div class="container hero__container">
+                <div class="hero__content scroll-animate" data-animation="fade-right">
+                    <div class="hero__badge">
+                        <i class="fa-solid fa-bolt"></i> Elite Field Execution & Visual Branding
+                    </div>
+                    <h1 class="hero__title">Elevate Your Corporate Presence with <span>Apeiron Solution</span></h1>
+                    <p class="hero__description">We specialize in delivering elite on-ground execution, high-impact
+                        corporate display boards, advanced LED digital infrastructure, and precision outdoor advertising
+                        tailored to scale your brand.</p>
+
+                    <div class="hero__buttons">
+                        <a href="#services" class="btn btn-primary">Explore Services <i
+                                class="fa-solid fa-arrow-right"></i></a>
+                        <a href="https://wa.me/919876543210?text=Hi%20Apeiron%20Solution,%20I%20would%20like%20to%20inquire%20about%20your%20services."
+                            target="_blank" rel="noopener noreferrer" class="btn btn-outline w-btn-outline"><i
+                                class="fa-brands fa-whatsapp"></i> WhatsApp Chat</a>
+                    </div>
+
+                    <div class="hero__stats">
+                        <div class="stat__item">
+                            <h3>500+</h3>
+                            <p>Projects Deployed</p>
+                        </div>
+                        <div class="stat__divider"></div>
+                        <div class="stat__item">
+                            <h3>100%</h3>
+                            <p>Quality Assured</p>
+                        </div>
+                        <div class="stat__divider"></div>
+                        <div class="stat__item">
+                            <h3>12+</h3>
+                            <p>Years Mastery</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero__visual scroll-animate" data-animation="fade-left" data-delay="200">
+                    <div class="hero__card-mockup animate-card-hover">
+                        <div class="mockup__header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="mockup__body">
+                            <div class="hero__img-banner">
+                                <img src="./images/brands/apeiron-solutions-logo.png"
+                                    alt="Apeiron Solution On-Site Execution">
+                            </div>
+                            <!-- <h3>Apeiron Solution</h3> -->
+                            <p>Apeiron Solution is your premier partner for elite field execution, high-impact corporate branding, and advanced digital displays. From precision architectural boards and vibrant LED video walls to heavy-duty outdoor billboards, we transform concepts into striking structural landmarks.</p>
+                            <div class="mockup__badge-tag">Available 24/7</div>
+                        </div>
+                    </div>
+                    <div class="floating__badge float-1">
+                        <i class="fa-solid fa-tv"></i> LED & Billboards
+                    </div>
+                    <div class="floating__badge float-2">
+                        <i class="fa-solid fa-print"></i> Digital Printing
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trusted Brands Auto-Slider Module -->
+        <section class="brands__section">
+            <div class="container">
+                <p class="brands__title scroll-animate" data-animation="fade-up">Trusted by Industry Leaders & Growing
+                    Businesses</p>
+            </div>
+
+            <div class="brands__slider-container">
+                <div class="brands__slider-track">
+                    <div class="brand__item animate-card-hover"><img src="./images/brands/rmz-logo.png"
+                            alt="Partner Logo" class="brand__logo"></div>
+                    <div class="brand__item animate-card-hover"><img src="./images/brands/divyshree-logo.png"
+                            alt="Partner Logo" class="brand__logo"></div>
+                    <div class="brand__item animate-card-hover"><img src="./images/brands/coffe-mug-logo.png"
+                            alt="Partner Logo" class="brand__logo"></div>
+                    <div class="brand__item animate-card-hover"><img src="./images/brands/rittal-logo.png"
+                            alt="Partner Logo" class="brand__logo"></div>
+                    <div class="brand__item animate-card-hover"><img src="./images/brands/shahi-logo.png"
+                            alt="Partner Logo" class="brand__logo"></div>
+
+                    <!-- Duplicate Set for Seamless Loop -->
+                    <div class="brand__item animate-card-hover"><img src="./images/brands/rmz-logo.png"
+                            alt="Partner Logo" class="brand__logo"></div>
+                    <div class="brand__item animate-card-hover"><img src="./images/brands/divyshree-logo.png"
+                            alt="Partner Logo" class="brand__logo"></div>
+                    <div class="brand__item animate-card-hover"><img src="./images/brands/coffe-mug-logo.png"
+                            alt="Partner Logo" class="brand__logo"></div>
+                    <div class="brand__item animate-card-hover"><img src="./images/brands/rittal-logo.png"
+                            alt="Partner Logo" class="brand__logo"></div>
+                    <div class="brand__item animate-card-hover"><img src="./images/brands/shahi-logo.png"
+                            alt="Partner Logo" class="brand__logo"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section Module -->
+        <section id="services" class="services__section">
+            <div class="container">
+                <div class="section__header scroll-animate" data-animation="fade-up">
+                    <span class="section__subtitle">Core Capabilities</span>
+                    <h2 class="section__title">Our Professional Field Services</h2>
+                    <p class="section__description">From concept architecture to heavy-duty on-site deployment, we offer
+                        comprehensive installation and branding solutions.</p>
+                </div>
+
+                <div class="services__grid">
+                    <div class="service__card scroll-animate animate-card-hover" data-animation="fade-up"
+                        data-delay="100">
+                        <div class="service__icon-box"><i class="fa-solid fa-building-user"></i></div>
+                        <h3 class="service__name">Corporate Business Board</h3>
+                        <p class="service__text">Premium architectural office branding and sophisticated exterior
+                            corporate identity structures designed for distinction.</p>
+                        <a href="#contact" class="service__link">Inquire Now <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="service__card scroll-animate animate-card-hover" data-animation="fade-up"
+                        data-delay="200">
+                        <div class="service__icon-box"><i class="fa-solid fa-signs-post"></i></div>
+                        <h3 class="service__name">Signage Board</h3>
+                        <p class="service__text">Customized retail, directional, and dimensional storefront displays
+                            crafted with superior weather-resistant finishes.</p>
+                        <a href="#contact" class="service__link">Inquire Now <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="service__card scroll-animate animate-card-hover" data-animation="fade-up"
+                        data-delay="300">
+                        <div class="service__icon-box"><i class="fa-solid fa-tv"></i></div>
+                        <h3 class="service__name">LED Digital Board</h3>
+                        <p class="service__text">High-luminosity programmable LED screens and immersive video walls
+                            built for maximum audience engagement.</p>
+                        <a href="#contact" class="service__link">Inquire Now <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="service__card scroll-animate animate-card-hover" data-animation="fade-up"
+                        data-delay="400">
+                        <div class="service__icon-box"><i class="fa-solid fa-panorama"></i></div>
+                        <h3 class="service__name">Billboard</h3>
+                        <p class="service__text">Heavy-duty structural outdoor highway billboards engineered for maximum
+                            public visibility and durability.</p>
+                        <a href="#contact" class="service__link">Inquire Now <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="service__card scroll-animate animate-card-hover" data-animation="fade-up"
+                        data-delay="500">
+                        <div class="service__icon-box"><i class="fa-solid fa-print"></i></div>
+                        <h3 class="service__name">Digital Printing</h3>
+                        <p class="service__text">Ultra-sharp, high-definition wide format printing for enterprise
+                            banners, architectural vinyl wraps, and displays.</p>
+                        <a href="#contact" class="service__link">Inquire Now <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Corporate Board Showcase Module -->
+        <section id="corporate-boards" class="corp-showcase__section">
+            <div class="container">
+                <div class="section__header scroll-animate" data-animation="fade-up">
+                    <span class="section__subtitle">Specialized Division</span>
+                    <h2 class="section__title">Corporate Board Showcase & Installations</h2>
+                    <p class="section__description">Explore our premier office branding projects, acrylic 3D lettering,
+                        and architectural nameplates crafted for enterprise headquarters.</p>
+                </div>
+
+                <div class="corp-filters scroll-animate" data-animation="fade-up">
+                    <button class="corp-filter__btn active" data-filter="all">All Boards</button>
+                    <button class="corp-filter__btn" data-filter="acrylic">Acrylic & 3D</button>
+                    <button class="corp-filter__btn" data-filter="metal">Metal & Etched</button>
+                    <button class="corp-filter__btn" data-filter="facade">Facade & Monument</button>
+                </div>
+
+                <div class="corp-grid scroll-animate" data-animation="scale-up" data-delay="200">
+                    <div class="corp-card animate-card-hover" data-category="acrylic"
+                        onclick="openCorpModal('./images/900x640/img1.webp')">
+                        <div class="corp-img__box">
+                            <!-- <span class="corp-badge"><i class="fa-solid fa-star"></i> Featured</span> -->
+                            <img src="./images/900x640/img1.webp" alt="Backlit Acrylic Lobby Board">
+                            <div class="corp-overlay">
+                                <span class="corp-tag">Acrylic & 3D</span>
+                                <i class="fa-solid fa-expand"></i>
+                            </div>
+                        </div>
+                        <div class="corp-content">
+                            <h3>Backlit Acrylic 3D Lobby Board</h3>
+                            <p>Halo-lit dimensional lettering designed for high-impact executive reception areas.</p>
+                        </div>
+                    </div>
+
+                    <div class="corp-card animate-card-hover" data-category="metal"
+                        onclick="openCorpModal('./images/900x640/img2.webp')">
+                        <div class="corp-img__box">
+                            <img src="./images/900x640/img2.webp">
+                            <div class="corp-overlay">
+                                <span class="corp-tag">Metal & Etched</span>
+                                <i class="fa-solid fa-expand"></i>
+                            </div>
+                        </div>
+                        <div class="corp-content">
+                            <h3>Titanium Etched Executive Nameplate</h3>
+                            <p>Brushed metal finish plaques built for long-lasting boardroom elegance.</p>
+                        </div>
+                    </div>
+
+                    <div class="corp-card animate-card-hover" data-category="facade"
+                        onclick="openCorpModal('./images/900x640/img3.webp')">
+                        <div class="corp-img__box">
+                            <!-- <span class="corp-badge"><i class="fa-solid fa-star"></i> Landmark</span> -->
+                            <img src="./images/900x640/img3.webp" alt="Exterior Monument Sign">
+                            <div class="corp-overlay">
+                                <span class="corp-tag">Facade & Monument</span>
+                                <i class="fa-solid fa-expand"></i>
+                            </div>
+                        </div>
+                        <div class="corp-content">
+                            <h3>Exterior Monument Entrance Sign</h3>
+                            <p>Structural architectural entrance pillars designed for maximum corporate presence.</p>
+                        </div>
+                    </div>
+
+                    <div class="corp-card animate-card-hover" data-category="acrylic"
+                        onclick="openCorpModal('./images/900x640/img4.webp')">
+                        <div class="corp-img__box">
+                            <img src="./images/900x640/img4.webp" alt="Frosted Glass Branding">
+                            <div class="corp-overlay">
+                                <span class="corp-tag">Acrylic & 3D</span>
+                                <i class="fa-solid fa-expand"></i>
+                            </div>
+                        </div>
+                        <div class="corp-content">
+                            <h3>Frosted Glass Boardroom Branding</h3>
+                            <p>Sophisticated glass etching films and manifestation graphics for office cabins.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Upgraded Project Showcase Gallery Module -->
+        <section id="project-showcase" class="showcase__section">
+            <div class="container">
+                <div class="section__header scroll-animate" data-animation="fade-up">
+                    <span class="section__subtitle">Updated Portfolio</span>
+                    <h2 class="section__title">Featured Project Showcase Gallery</h2>
+                    <p class="section__description">Explore our latest landmark field executions. Click any card to
+                        inspect detailed project scopes or filter by category.</p>
+                </div>
+
+                <div class="showcase__filters scroll-animate" data-animation="fade-up">
+                    <button class="showcase__filter-btn active" data-filter="all">All Projects</button>
+                    <button class="showcase__filter-btn" data-filter="corporate">Corporate</button>
+                    <button class="showcase__filter-btn" data-filter="led">LED Displays</button>
+                    <button class="showcase__filter-btn" data-filter="billboard">Billboards</button>
+                    <button class="showcase__filter-btn" data-filter="signage">Signage</button>
+                </div>
+
+                <div class="showcase__grid scroll-animate" data-animation="scale-up" data-delay="200">
+                    <div class="showcase__card animate-card-hover" data-category="corporate"
+                        onclick="openShowcaseModal('./images/900x640/img5.webp')">
+                        <div class="showcase__img-box">
+                            <span class="showcase__featured-badge"><i class="fa-solid fa-star"></i> Featured
+                                Update</span>
+                            <img src="./images/900x640/img5.webp" alt="Apex Tech Hub">
+                            <div class="showcase__overlay">
+                                <span class="showcase__tag">Corporate Board</span>
+                                <i class="fa-solid fa-expand"></i>
+                            </div>
+                        </div>
+                        <div class="showcase__content">
+                            <h3>Apex Tech Hub Corporate Branding</h3>
+                            <p>High-end architectural office lobby and exterior identification boards.</p>
+                        </div>
+                    </div>
+
+                    <div class="showcase__card animate-card-hover" data-category="led"
+                        onclick="openShowcaseModal('./images/900x640/img6.webp')">
+                        <div class="showcase__img-box">
+                            <img src="./images/900x640/img6.webp" alt="LED Video Wall">
+                            <div class="showcase__overlay">
+                                <span class="showcase__tag">LED Digital Board</span>
+                                <i class="fa-solid fa-expand"></i>
+                            </div>
+                        </div>
+                        <div class="showcase__content">
+                            <h3>City Center LED Video Wall</h3>
+                            <p>Vibrant programmable commercial display screen built for outdoor resilience.</p>
+                        </div>
+                    </div>
+
+                    <div class="showcase__card animate-card-hover" data-category="billboard"
+                        onclick="openShowcaseModal('./images/900x640/img7.webp')">
+                        <div class="showcase__img-box">
+                            <img src="./images/900x640/img7.webp" alt="Mega Hoarding">
+                            <div class="showcase__overlay">
+                                <span class="showcase__tag">Billboard</span>
+                                <i class="fa-solid fa-expand"></i>
+                            </div>
+                        </div>
+                        <div class="showcase__content">
+                            <h3>Highway Mega Hoarding Campaign</h3>
+                            <p>Large-scale outdoor structural advertising built for maximum reach.</p>
+                        </div>
+                    </div>
+
+                    <div class="showcase__card animate-card-hover" data-category="signage"
+                        onclick="openShowcaseModal('./images/900x640/img8.webp')">
+                        <div class="showcase__img-box">
+                            <img src="./images/900x640/img8.webp" alt="Retail Signage">
+                            <div class="showcase__overlay">
+                                <span class="showcase__tag">Signage Board</span>
+                                <i class="fa-solid fa-expand"></i>
+                            </div>
+                        </div>
+                        <div class="showcase__content">
+                            <h3>Lumina Retail Storefront Sign</h3>
+                            <p>Sophisticated dimensional storefront branding designed for premium visibility.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Description Module -->
+        <section id="work-description" class="work-desc__section">
+            <div class="container work-desc__container">
+                <div class="work-desc__visual scroll-animate" data-animation="fade-right">
+                    <div class="work-desc__img-main animate-card-hover">
+                        <img src="./images/900x640/img9.webp" alt="Apeiron Solution Field Execution">
+                    </div>
+                    <div class="work-desc__floating-card animate-card-hover">
+                        <div class="floating-icon"><i class="fa-solid fa-helmet-safety"></i></div>
+                        <div>
+                            <h4>100% On-Site Safety</h4>
+                            <p>Rigorous structural compliance</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-desc__content scroll-animate" data-animation="fade-left" data-delay="200">
+                    <span class="section__subtitle">How We Execute</span>
+                    <h2 class="section__title">Precision Field Operations & Seamless Delivery</h2>
+                    <p class="section__description">
+                        At <strong>Apeiron Solution</strong>, we bridge the gap between creative design and heavyweight
+                        structural execution. Every project undergoes a meticulous multi-phase workflow to guarantee
+                        lasting impact and structural integrity.
+                    </p>
+
+                    <div class="work-desc__steps">
+                        <div class="step__item">
+                            <div class="step__number">01</div>
+                            <div class="step__info">
+                                <h4>Site Survey & Blueprinting</h4>
+                                <p>Comprehensive on-ground evaluation, dimensioning, and structural feasibility
+                                    planning.</p>
+                            </div>
+                        </div>
+
+                        <div class="step__item">
+                            <div class="step__number">02</div>
+                            <div class="step__info">
+                                <h4>Custom Fabrication & Printing</h4>
+                                <p>High-precision manufacturing using industrial-grade materials, weather-resistant
+                                    acrylics, and advanced digital printers.</p>
+                            </div>
+                        </div>
+
+                        <div class="step__item">
+                            <div class="step__number">03</div>
+                            <div class="step__info">
+                                <h4>Expert Installation & Handover</h4>
+                                <p>Professional on-site deployment handled by trained technicians adhering strictly to
+                                    safety regulations.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="work-desc__cta">
+                        <a href="#contact" class="btn btn-primary">Book a Site Visit <i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section Module -->
+        <section id="about" class="about__section">
+            <div class="container about__container">
+                <div class="about__visual scroll-animate" data-animation="fade-right">
+                    <div class="about__img-wrapper animate-card-hover">
+                        <img src="./images/900x640/img11.webp" alt="Apeiron Solution Field Deployment">
+                        <div class="about__badge-box">
+                            <i class="fa-solid fa-award"></i>
+                            <div>
+                                <h4>12+ Years</h4>
+                                <p>Field Mastery</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about__backdrop-shape"></div>
+                </div>
+
+                <div class="about__content scroll-animate" data-animation="fade-left" data-delay="200">
+                    <span class="section__subtitle">About Apeiron Solution</span>
+                    <h2 class="section__title">Precision Engineering & Ground Execution</h2>
+                    <p class="section__description">
+                        <strong>Apeiron Solution</strong> is a premier field-execution and structural branding
+                        powerhouse. We take conceptual designs from blueprints to physical reality, specializing in
+                        heavy-duty commercial installations and advanced outdoor displays.
+                    </p>
+                    <p class="about__subtext">
+                        Our expert field technicians combine rigorous safety standards with state-of-the-art deployment
+                        machinery to ensure flawless execution on every single project, from corporate headquarters to
+                        sprawling outdoor campaigns.
+                    </p>
+
+                    <div class="about__checklist">
+                        <div class="check__item"><i class="fa-solid fa-circle-check"></i> Corporate Business Board</div>
+                        <div class="check__item"><i class="fa-solid fa-circle-check"></i> Signage Board</div>
+                        <div class="check__item"><i class="fa-solid fa-circle-check"></i> LED Digital Board</div>
+                        <div class="check__item"><i class="fa-solid fa-circle-check"></i> Billboard Installation</div>
+                        <div class="check__item"><i class="fa-solid fa-circle-check"></i> Digital Printing</div>
+                        <div class="check__item"><i class="fa-solid fa-circle-check"></i> And Much More...</div>
+                    </div>
+
+                    <div class="about__cta-wrapper">
+                        <a href="#contact" class="btn btn-primary">Start Your Project <i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section Module -->
+        <section id="contact" class="contact__section">
+            <div class="container">
+                <div class="section__header scroll-animate" data-animation="fade-up">
+                    <span class="section__subtitle">Get In Touch</span>
+                    <h2 class="section__title">Let’s Build Something Exceptional</h2>
+                    <p class="section__description">Ready to elevate your corporate visual identity or execute
+                        large-scale display installations? Connect with our team today.</p>
+                </div>
+
+                <div class="contact__container">
+                    <div class="contact__info scroll-animate animate-card-hover" data-animation="fade-right"
+                        data-delay="100">
+                        <h3>Direct Channels</h3>
+                        <p class="contact__info-desc">Reach out via our office channels or submit an inquiry using our
+                            scheduling form for tailored assistance.</p>
+
+                        <div class="info__item">
+                            <div class="info__icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div>
+                                <h4>Headquarters</h4>
+                                <p><a href="https://maps.app.goo.gl/LoNKQPsPs2qGQjfp9" target="_blank"
+                                        rel="noopener noreferrer"
+                                        style="color: inherit; text-decoration: underline;">HAL Old Airport Rd, near
+                                        Domlur Post Office, Domlur I Stage, 1st Stage, Bengaluru, Karnataka 560071/a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="info__item">
+                            <div class="info__icon"><i class="fa-solid fa-phone"></i></div>
+                            <div>
+                                <h4>Direct Line</h4>
+                                <p><a href="tel:+919876543210" style="color: inherit; text-decoration: underline;">+91
+                                        98765 43210</a></p>
+                            </div>
+                        </div>
+
+                        <div class="info__item">
+                            <div class="info__icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div>
+                                <h4>Official Email</h4>
+                                <p><a href="mailto:sharanjairamjadhav@gmail.com"
+                                        style="color: inherit; text-decoration: underline;">sharanjairamjadhav@gmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="contact__socials">
+                            <a href="#" class="social__icon"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="social__icon"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="social__icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://wa.me/919876543210?text=Hi%20Apeiron%20Solution,%20I%20would%20like%20to%20inquire%20about%20your%20services."
+                                target="_blank" rel="noopener noreferrer" class="social__icon"><i
+                                    class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+
+                    <form class="contact__form scroll-animate animate-card-hover" data-animation="fade-left"
+                        data-delay="200"
+                        onsubmit="event.preventDefault(); alert('Thank you! Your message has been sent to Apeiron Solution.');">
+                        <div class="form__group">
+                            <div class="form__field">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form__field">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" placeholder="apeiron@example.com" required>
+                            </div>
+                        </div>
+
+                        <div class="form__group">
+                            <div class="form__field">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" placeholder="+91 XXXXX XXXXX">
+                            </div>
+                            <div class="form__field">
+                                <label for="service">Select Service</label>
+                                <select id="service">
+                                    <option value="corporate">Corporate Business Board</option>
+                                    <option value="signage">Signage Board</option>
+                                    <option value="led">LED Digital Board</option>
+                                    <option value="billboard">Billboard</option>
+                                    <option value="printing">Digital Printing</option>
+                                    <option value="other">Other / Custom</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form__field">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" rows="5" placeholder="Tell us about your project requirements..."
+                                required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full">Send Message <i
+                                class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section Module -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__col scroll-animate" data-animation="fade-up">
+                <a href="#" class="footer__logo">
+                    <img src="./images/brands/apeiron-logo.png" alt="Apeiron Solution Logo" class="footer-logo-img">
+                </a>
+                <p class="footer__desc">
+                    Your premier field-execution and structural branding powerhouse. We specialize in high-impact
+                    corporate boards, digital displays, and large-scale outdoor advertising.
+                </p>
+
+                <div class="footer__action-buttons">
+                    <a href="tel:+919876543210" class="footer__action-btn phone-btn">
+                        <i class="fa-solid fa-phone"></i> Call Us Now
+                    </a>
+                    <a href="https://wa.me/919876543210?text=Hi%20Apeiron%20Solution,%20I%20would%20like%20to%20inquire%20about%20your%20services."
+                        target="_blank" rel="noopener noreferrer" class="footer__action-btn whatsapp-btn">
+                        <i class="fa-brands fa-whatsapp"></i> WhatsApp Us
+                    </a>
+                </div>
+
+                <div class="footer__socials">
+                    <a href="#" class="footer__social-icon" aria-label="Facebook"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="footer__social-icon" aria-label="Instagram"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="footer__social-icon" aria-label="LinkedIn"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://wa.me/919876543210?text=Hi%20Apeiron%20Solution,%20I%20would%20like%20to%20inquire%20about%20your%20services."
+                        target="_blank" rel="noopener noreferrer" class="footer__social-icon" aria-label="WhatsApp"><i
+                            class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer__col scroll-animate" data-animation="fade-up" data-delay="100">
+                <h3 class="footer__title">Quick Links</h3>
+                <ul class="footer__links">
+                    <li><a href="#home"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+                    <li><a href="#about"><i class="fa-solid fa-chevron-right"></i> About Us</a></li>
+                    <li><a href="#services"><i class="fa-solid fa-chevron-right"></i> Our Services</a></li>
+                    <li><a href="#project-showcase"><i class="fa-solid fa-chevron-right"></i> Showcase</a></li>
+                    <li><a href="#contact"><i class="fa-solid fa-chevron-right"></i> Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__col scroll-animate" data-animation="fade-up" data-delay="200">
+                <h3 class="footer__title">Our Services</h3>
+                <ul class="footer__links">
+                    <li><a href="#services"><i class="fa-solid fa-chevron-right"></i> Corporate Business Board</a></li>
+                    <li><a href="#services"><i class="fa-solid fa-chevron-right"></i> Signage Board</a></li>
+                    <li><a href="#services"><i class="fa-solid fa-chevron-right"></i> LED Digital Board</a></li>
+                    <li><a href="#services"><i class="fa-solid fa-chevron-right"></i> Billboard</a></li>
+                    <li><a href="#services"><i class="fa-solid fa-chevron-right"></i> Digital Printing</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__col scroll-animate" data-animation="fade-up" data-delay="300">
+                <h3 class="footer__title">Contact Location</h3>
+                <!-- <p class="footer__desc">Subscribe to our newsletter for exclusive updates and industry trends.</p>
+                <form class="footer__newsletter" onsubmit="event.preventDefault(); alert('Thank you for subscribing to Apeiron Solution!');">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" aria-label="Subscribe"><i class="fa-solid fa-paper-plane"></i></button>
+                </form> -->
+                <div class="footer__contact-info">
+                    <p><i class="fa-solid fa-location-dot"></i> <a href="https://maps.app.goo.gl/LoNKQPsPs2qGQjfp9"
+                            target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">HAL
+                            Old Airport Rd, near Domlur Post Office, Domlur I Stage, 1st Stage, Bengaluru, Karnataka
+                            560071</a></p>
+                    <p><i class="fa-solid fa-phone"></i> <a href="tel:+919876543210"
+                            style="color: inherit; text-decoration: none;">Robin Machaiah</a></p>
+                    <p><i class="fa-solid fa-phone"></i> <a href="tel:+919876543210"
+                            style="color: inherit; text-decoration: none;">Purushotham BM</a></p>
+                    <p><i class="fa-solid fa-envelope"></i> <a href="mailto:sharanjairamjadhav@gmail.com"
+                            style="color: inherit; text-decoration: none;">sharanjairamjadhav@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <div class="container footer__bottom-container">
+                <p>&copy; <span id="current-year">2026</span> Apeiron Solution. All rights reserved.</p>
+                <div class="footer__bottom-links">
+                    <!-- <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a> -->
+                    <h4 style="margin-bottom: 20px;" class="sharandigital">Designed by <a style="font-family: 'Kaushan Script', cursive; font-size: 1rem;"
+                            href="https://sharanjairamjadhav.github.io/sharanjadhav/">Sharan Jadhav</a></h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Universal Project Popup Modal Module -->
+    <div id="showcaseModal" class="showcase-modal__overlay" onclick="closeShowcaseModalOutside(event)">
+        <div class="showcase-modal__content animate-card-hover">
+            <button class="showcase-modal__close" onclick="closeShowcaseModal()"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <div class="showcase-modal__grid">
+                <div class="showcase-modal__img-box">
+                    <img id="showcaseModalImg" src="" alt="Project Detailed View">
+                </div>
+                <div class="showcase-modal__text-box">
+                    <span class="section__subtitle">Project Specification</span>
+                    <h3 id="showcaseModalTitle">Project Title</h3>
+                    <p id="showcaseModalDesc">Project comprehensive scope and description text goes here...</p>
+                    <div class="showcase-modal__meta">
+                        <div class="meta-item"><i class="fa-solid fa-circle-check"></i> Featured Update</div>
+                        <div class="meta-item"><i class="fa-solid fa-location-dot"></i> <a
+                                href="" target="_blank"
+                                rel="noopener noreferrer" style="color: inherit;">Bangalore, India</a></div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary btn-full" onclick="closeShowcaseModal()">Inquire About
+                        This Service <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Corporate Board Modal Popup Module -->
+    <div id="corpModal" class="corp-modal__overlay" onclick="closeCorpModalOutside(event)">
+        <div class="corp-modal__content animate-card-hover">
+            <button class="corp-modal__close" onclick="closeCorpModal()"><i class="fa-solid fa-xmark"></i></button>
+            <div class="corp-modal__grid">
+                <div class="corp-modal__img-box">
+                    <img id="corpModalImg" src="" alt="Corporate Board Detail">
+                </div>
+                <div class="corp-modal__text-box">
+                    <span class="section__subtitle">Specification Details</span>
+                    <h3 id="corpModalTitle">Project Title</h3>
+                    <p id="corpModalDesc">Project scope description goes here...</p>
+                    <div class="corp-modal__meta">
+                        <div class="meta-item"><i class="fa-solid fa-circle-check"></i> High Durability Finish</div>
+                        <div class="meta-item"><i class="fa-solid fa-location-dot"></i> <a
+                                href="https://maps.app.goo.gl/LoNKQPsPs2qGQjfp9" target="_blank"
+                                rel="noopener noreferrer" style="color: inherit;">Bangalore, India</a></div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary btn-full" onclick="closeCorpModal()">Inquire About
+                        Corporate Boards <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
